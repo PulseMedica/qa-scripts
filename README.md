@@ -6,5 +6,7 @@ The purpose of this repository is to hold all qa-scripts.
 
 ### Virtual env & requirements setup
 1. ```virtualenv venv```
-2. ```source venv/bin/activate```
-3. ```pip install -r requirements.txt```
+2. ```source venv/scripts/activate```
+3. Navigate into whichever script folder you want.
+4. ```pip install -r requirements.txt```
+5. You're now ready to run the script, just follow the scripts README.
