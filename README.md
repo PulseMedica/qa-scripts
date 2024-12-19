@@ -10,3 +10,5 @@ The purpose of this repository is to hold all qa-scripts.
 3. Navigate into whichever script folder you want.
 4. ```pip install -r requirements.txt```
 5. You're now ready to run the script, just follow the scripts README.
+
+Deactivate VENV: ```deactivate```
