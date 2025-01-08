@@ -17,7 +17,7 @@ install_path = "C:\FSS_Tested"
 # Open the installer
 app = Application(backend="win32").start(installer_path)
 main_window = app.window()
-time.sleep(5) # Make sure the main window is ready first.
+time.sleep(8) # Make sure the main window is ready first.
 
 # Enter path to install at.
 main_window.set_focus()
@@ -27,7 +27,7 @@ send_keys(install_path)
 main_window.next_button.click();
 
 # Check the "Run Auto Configuration" toggle. Wait for install to finish.
-time.sleep(12)
+time.sleep(15)
 checkbox = ButtonWrapper(main_window.TCheckBox.wrapper_object())
 checkbox.click()
 
